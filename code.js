@@ -6,8 +6,8 @@ function onLoad() {
     pages.forEach(element => {
         element.classList.add("unopenedPage");
     });
-    pages[0].classList.remove("unopenedPage");
-    pages[0].classList.add("openPage");
+    pages[currentPage].classList.remove("unopenedPage");
+    pages[currentPage].classList.add("openPage");
 }
 
 function nextPage() {

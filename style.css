@@ -54,7 +54,8 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
+    padding: 0% 5%;
     height: 90%;
     background-color: #3e517f;
     border-radius: 10px;
@@ -123,4 +124,22 @@ p {
 .ident img {
     width: 12vw;
     height: 12vw;
+}
+
+.barchart {
+    /* display: flex; */
+    width: 80%;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.barchartBar {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 1vh;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
 }
