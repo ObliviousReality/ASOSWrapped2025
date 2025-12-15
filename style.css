@@ -49,13 +49,48 @@ p {
     width: 100%;
 }
 
-.page button {
+.pageInner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    background-color: #3e517f;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.pageInner button {
     width: 30%;
     background-color: #6B16A2;
     border-radius: 12%;
     padding: 5% 0%;
     font-size: 12vw;
     color: #E32128;
+    margin-top: 4%;
+}
+
+.pageInner h1 {
+    margin: 0;
+    font-size: 12vw;
+    color: gold;
+}
+
+.pageInner h2 {
+    font-size: 14vw;
+    color: #6B16A2;
+    margin: 0;
+}
+
+.pageInner h3 {
+    color: aliceblue;
+}
+
+.pageInner h4 {
+    margin: 0;
+    font-size: 8vw;
+    color: #6B16A2;
 }
 
 @media only screen and (min-width: 768px) {}
