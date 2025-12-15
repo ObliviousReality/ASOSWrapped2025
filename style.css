@@ -41,11 +41,21 @@ p {
     height: 90%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     text-align: center;
     padding: 0;
     transition-duration: 3s;
     width: 100%;
+}
+
+.page button {
+    width: 30%;
+    background-color: #6B16A2;
+    border-radius: 12%;
+    padding: 5% 0%;
+    font-size: 12vw;
+    color: #E32128;
 }
 
 @media only screen and (min-width: 768px) {}
