@@ -19,15 +19,12 @@ function nextPage() {
     }
 
     pages[currentPage].classList.remove("openPage");
-    // pages[currentPage].classList.remove("unopenedPage");
     pages[currentPage].classList.add("closedPage");
 
     currentPage++;
     if (currentPage == pages.length) {
         return;
     }
-    // pages[currentPage].classList.remove("unopenedPage");
     pages[currentPage].classList.remove("closedPage");
     pages[currentPage].classList.add("openPage");
-
 }
