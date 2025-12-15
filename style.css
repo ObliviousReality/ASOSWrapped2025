@@ -61,3 +61,21 @@ p {
 .closedPage {
     top: -90%;
 }
+
+.ident {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    bottom: 2%;
+    right: 2%;
+    background-color: #121212;
+    border-radius: 50%;
+}
+
+.ident img {
+    width: 12vw;
+    height: 12vw;
+}
