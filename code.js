@@ -6,6 +6,8 @@ var data;
 
 const DataPath = "data/sample_data.json";
 
+var friendsPage = 12
+
 function loadData() {
     var file = new XMLHttpRequest();
     file.open("GET", DataPath, true);
@@ -48,6 +50,32 @@ function nextPage() {
     }
     pages[currentPage].classList.remove("unopenedPage");
     pages[currentPage].classList.add("openPage");
+}
+
+function goToPage(pageNumber) {
+    let pages = Array.from(document.getElementsByClassName("page"));
+    for (let i = 0; i < pages.length; ++i) {
+        if (i < pageNumber) {
+            pages[i].classList.remove("unopenedPage");
+            pages[i].classList.remove("openPage");
+            pages[i].classList.add("closedPage");
+        }
+        else if (i > pageNumber) {
+            pages[i].classList.remove("closedPage");
+            pages[i].classList.remove("openPage");
+            pages[i].classList.add("unopenedPage");
+        }
+        else {
+            pages[i].classList.remove("closedPage");
+            pages[i].classList.remove("unopenedPage");
+            pages[i].classList.add("openPage");
+        }
+    }
+    currentPage = pageNumber;
+}
+
+function getFriendsPage() {
+    return friendsPage;
 }
 
 function scale(number, inMin, inMax, outMin, outMax) {
@@ -105,6 +133,15 @@ function substituteText() {
     swapText("most_messaged_channel_percent", mmcp);
 
     fillYearChart(messagesEachYear);
+    let t = data["pings_match"];
+    if (data["pings_match"]) {
+        friendsPage = 11;
+        document.getElementById("notFriends").style.display = "none";
+    }
+    else {
+        friendsPage = 12;
+        document.getElementById("bestFriends").style.display = "none";
+    }
 }
 
 function onSubmitPressed() {
