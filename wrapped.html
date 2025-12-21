@@ -37,11 +37,10 @@
             <div class="pageInner">
                 <h2>Years of Service</h2>
                 <h3>You've been a member of the A Slightly Oblivious Server for:</h3>
-                <h1>5</h1>
+                <h1 class="years_in_server">5</h1>
                 <h3>Years!</h3>
-
                 <h3>You Joined on</h3>
-                <h4>01/01/2017</h4>
+                <h4 class="join_date">01/01/2017</h4>
                 <button type="button" onclick="nextPage()">
                     ►
                 </button>
@@ -51,7 +50,7 @@
             <div class="pageInner">
                 <h2>Years of Service</h2>
                 <h3>That means you're the</h3>
-                <h1>5th</h1>
+                <h1 class="age_ranking">5th</h1>
                 <h3>oldest member!</h3>
                 <button type="button" onclick="nextPage()">
                     ►
@@ -62,7 +61,7 @@
             <div class="pageInner">
                 <h2>Messages</h2>
                 <h3>You sent a lot of messages this year!</h3>
-                <h1>2610</h1>
+                <h1 class="2025Messages">2610</h1>
                 <h3>to be exact!</h3>
                 <button type="button" onclick="nextPage()">
                     ►
@@ -73,7 +72,7 @@
             <div class="pageInner">
                 <h2>Messages</h2>
                 <h3>How does 2025 stack up to previous years?</h3>
-                <div class="barchart">
+                <div id="yearChart" class="barchart">
                     <div class="barchartBar" style="width:20%;">2017</div>
                     <div class="barchartBar" style="width:30%;">2018</div>
                     <div class="barchartBar" style="width:40%;">2019</div>
@@ -82,7 +81,7 @@
                     <div class="barchartBar" style="width:70%;">2022</div>
                     <div class="barchartBar" style="width:80%;">2023</div>
                     <div class="barchartBar" style="width:90%;">2024</div>
-                    <div class="barchartBar" style="width:100%;">2025</div>
+                    <div class="barchartBar 2025Messages" style="width:100%;">2025</div>
                 </div>
                 <button type="button" onclick="nextPage()">
                     ►
@@ -93,10 +92,10 @@
             <div class="pageInner">
                 <h2>Messages</h2>
                 <h3>This means you messaged the</h3>
-                <h1>5th</h1>
+                <h1 class="messages_this_year_ranking">5th</h1>
                 <h3>most this year!</h3>
                 <h3>That's</h3>
-                <h4>Down</h4>
+                <h4 class="messages_this_year_change">Down</h4>
                 <h3>From last year!</h3>
                 <button type="button" onclick="nextPage()">
                     ►
@@ -107,9 +106,9 @@
             <div class="pageInner">
                 <h2>Messages</h2>
                 <h3>But <i>when</i> were you messaging?</h3>
-                <h1>67%</h1>
+                <h1 class="percent_work_hours">67%</h1>
                 <h3>of your messages were sent during work hours.</h3>
-                <h1>21%</h1>
+                <h1 class="work_hours_ranking">21%</h1>
                 <h3>were sent between midnight and 6AM.</h3>
                 <button type="button" onclick="nextPage()">
                     ►
@@ -120,9 +119,9 @@
             <div class="pageInner">
                 <h2>Pings</h2>
                 <h3>You pinged</h3>
-                <h1>145</h1>
+                <h1 class="pings_sent">145</h1>
                 <h3>people this year (directly).</h3>
-                <h1>614</h1>
+                <h1 class="pings_received">614</h1>
                 <h3>people pinged you.</h3>
                 <p>but who where they?</p>
                 <button type="button" onclick="nextPage()">
@@ -135,9 +134,9 @@
                 <h2>Pings</h2>
                 <h3>The person who had all of your attention was</h3>
                 <h3></h3>
-                <h1>Matthew</h1>
+                <h1 class="most_pinged">Matthew</h1>
                 <h3>You pinged them</h3>
-                <h1>245</h1>
+                <h1 class="most_pinged_count">245</h1>
                 <h3>times.</h3>
                 <h3>But did they ping <b>you</b> the most?</h3>
                 <button type="button" onclick="nextPage()">
@@ -150,7 +149,7 @@
                 <h2>YES!</h2>
                 <h3></h3>
                 <h3>They pinged you</h3>
-                <h1>214</h1>
+                <h1 class="most_pinged_most_pinged_count">214</h1>
                 <h3>times.</h3>
                 <h3>You must be:</h3>
                 <h1>Best Friends ♥</h1>
@@ -166,7 +165,7 @@
                 <h3>sad.</h3>
                 <h3></h3>
                 <h3>They pinged:</h3>
-                <h1>Matthew</h1>
+                <h1 class="most_pinged_most_pinged">Matthew</h1>
                 <h3>the most.</h3>
                 <p>friendship ended???</p>
                 <button type="button" onclick="nextPage()">
@@ -178,10 +177,10 @@
             <div class="pageInner">
                 <h2>Images</h2>
                 <h3>You sent</h3>
-                <h1>535</h1>
+                <h1 class="images">535</h1>
                 <h3>images this year.</h3>
                 <h3>You sent the</h3>
-                <h1>5th</h1>
+                <h1 class="images_rank">5th</h1>
                 <h3>most messages this year</h3>
                 <p>alas discord changed their api so i can't show you them</p>
                 <button type="button" onclick="nextPage()">
@@ -192,7 +191,7 @@
         <div class="page">
             <div class="pageInner">
                 <h2>Pinned Messages</h2>
-                <h1>4</h1>
+                <h1 class="pinned_messages">4</h1>
                 <h3>of your messages were pinned this year</h3>
                 <button type="button" onclick="nextPage()">
                     ►
@@ -203,9 +202,9 @@
             <div class="pageInner">
                 <h2>Channels</h2>
                 <h3>Where were the messages you were sending this year?</h3>
-                <h1>14%</h1>
+                <h1 class="most_messaged_channel_percent">14%</h1>
                 <h3>of your messages were in one channel:</h3>
-                <h1>#wholesome</h1>
+                <h1 class="most_messaged_channel">#wholesome</h1>
                 <h3>It must be your favourite :)</h3>
                 <button type="button" onclick="nextPage()">
                     ►
@@ -217,7 +216,7 @@
                 <h2>Channels</h2>
                 <h3>But did you hit the home run?</h3>
                 <h3>You sent a message to</h3>
-                <h1>83%</h1>
+                <h1 class="channel_coverage_percent">83%</h1>
                 <h3>of the channels.</h3>
                 <button type="button" onclick="nextPage()">
                     ►
@@ -228,10 +227,10 @@
             <div class="pageInner">
                 <h2>Message Content</h2>
                 <h3>You sent</h3>
-                <h1>256</h1>
+                <h1 class="swear_count">256</h1>
                 <h3>swear words to the server this year.</h3>
                 <h3>That makes you the</h3>
-                <h1>5th</h1>
+                <h1 class="swear_count_ranking">5th</h1>
                 <h3>most prolific swearer.</h3>
                 <p>what a fucking achievement</p>
                 <button type="button" onclick="nextPage()">
@@ -243,10 +242,10 @@
             <div class="pageInner">
                 <h2>Message Content</h2>
                 <h3>You said the ✨secret phrase🌟</h3>
-                <h1>25</h1>
+                <h1 class="secret_phrase_count">25</h1>
                 <h3>times this year!</h3>
                 <h3>That was the</h3>
-                <h1>5th</h1>
+                <h1 class="secret_phrase_ranking">5th</h1>
                 <h3>most of everyone!</h3>
                 <p>but what was it???</p>
                 <button type="button" onclick="nextPage()">
@@ -258,10 +257,10 @@
             <div class="pageInner">
                 <h2>Message Content</h2>
                 <h3>You set off giadabot9000</h3>
-                <h1>12</h1>
+                <h1 class="bot_triggers">12</h1>
                 <h3>times this year!</h3>
                 <h3>That was the</h3>
-                <h1>5th</h1>
+                <h1 class="bot_triggers_ranking">5th</h1>
                 <h3>most of everyone!</h3>
                 <p>if giadabot9000 threatens you during the robot uprising you'll know what to say</p>
                 <button type="button" onclick="nextPage()">
