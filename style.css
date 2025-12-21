@@ -97,13 +97,16 @@ p {
 
 .unopenedPage {
     top: 100%;
+    opacity: 0;
 }
 
 .openPage {
+    opacity: 1;
     top: 10%;
 }
 
 .closedPage {
+    opacity: 0;
     top: -90%;
 }
 
