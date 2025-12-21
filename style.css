@@ -1,11 +1,11 @@
 html {
-    height: 100%;
+    height: 100dvh;
 }
 
 body {
     background-color: #121212;
     margin: 0;
-    height: 100%;
+    height: 100dvh;
     overflow: hidden;
     font-family: Arial;
 }
@@ -19,15 +19,15 @@ p {
     flex-direction: column;
     text-align: center;
     padding: 0;
-    height: 100%;
+    height: 100dvh;
 }
 
 .titleBar {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 10%;
+    width: 100dvw;
+    height: 10dvh;
     z-index: 1;
     background-color: #6B16A2;
 }
@@ -39,7 +39,7 @@ p {
 
 .page {
     position: absolute;
-    height: 90%;
+    height: 90dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@ p {
     text-align: center;
     padding: 0;
     transition-duration: 3s;
-    width: 100%;
+    width: 100dvw;
 }
 
 .pageInner {
@@ -55,9 +55,9 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 70%;
-    padding: 0% 5%;
-    height: 90%;
+    width: 70dvw;
+    padding: 0% 5dvw;
+    height: 80dvh;
     background-color: #3e517f;
     border-radius: 10px;
     margin: 0;
