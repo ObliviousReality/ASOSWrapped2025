@@ -1,6 +1,7 @@
 var currentPage = 0;
 
 let user_name_list = new Array();
+let real_name_list = new Array();
 var full_data;
 var data;
 
@@ -16,6 +17,7 @@ function loadData() {
             var raw_data = file.responseText;
             full_data = JSON.parse(raw_data);
             user_name_list = Object.keys(full_data);
+            Object.keys(full_data).map(item => real_name_list.push(full_data[item]["real_name"]));
         }
     }
     file.send();
@@ -147,8 +149,12 @@ function substituteText() {
 function onSubmitPressed() {
     let ta = document.getElementById("nameBox");
     let text = ta.value;
-    console.log(text);
     if (text.length) {
+        let temp_text = text[0].toUpperCase() + text.slice(1).toLowerCase();
+        if (real_name_list.find(item => item === temp_text)) {
+            text = user_name_list[real_name_list.indexOf(temp_text)];
+        }
+
         if (user_name_list.find(item => item === text)) {
             data = full_data[text];
             console.log("Found");
