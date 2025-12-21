@@ -46,7 +46,7 @@ function nextPage() {
     if (currentPage == pages.length) {
         return;
     }
-    pages[currentPage].classList.remove("closedPage");
+    pages[currentPage].classList.remove("unopenedPage");
     pages[currentPage].classList.add("openPage");
 }
 
