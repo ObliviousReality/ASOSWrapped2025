@@ -5,7 +5,7 @@ let real_name_list = new Array();
 var full_data;
 var data;
 
-const DataPath = "data/sample_data.json";
+const DataPath = "data/data.json";
 
 var friendsPage = 12
 
