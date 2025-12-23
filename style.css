@@ -134,12 +134,27 @@ p {
     height: 12vw;
 }
 
-.barchart {
-    /* display: flex; */
+.chart {
+    display: flex;
     width: 80%;
     background-color: grey;
     border-radius: 10px;
     padding: 5%;
+}
+
+.barchartkey {
+    width: 20%;
+}
+
+.barchartkey div {
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 0.5vh;
+}
+
+.barchart {
+    width: 80%;
 }
 
 .barchartBar {
