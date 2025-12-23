@@ -164,6 +164,19 @@ p {
     margin-top: 4%;
 }
 
+.pageInner table {
+    width: 60dvw;
+    height: 60dvw;
+    background-color: #e55746;
+    border-radius: 10px;
+    margin-top: 5dvh;
+    margin-bottom: 5dvh;
+}
+
+.pageInner table tr td h1 {
+    font-size: 8vw;
+}
+
 @media only screen and (min-width: 768px) {
     .page {
         width: 50%
