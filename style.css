@@ -86,6 +86,7 @@ p {
 }
 
 .pageInner h3 {
+    margin: 1vh;
     color: aliceblue;
 }
 
@@ -93,6 +94,11 @@ p {
     margin: 0;
     font-size: 8vw;
     color: #0079a6;
+}
+
+.pageInner p {
+    margin: 1vh;
+    color: aliceblue;
 }
 
 .unopenedPage {
@@ -138,9 +144,9 @@ p {
 
 .barchartBar {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 1vh;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 0.5vh;
     color: white;
     background-color: #e55746;
     border-radius: 10px;
