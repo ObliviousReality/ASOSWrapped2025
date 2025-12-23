@@ -56,6 +56,11 @@
         "swear_count": 58,
         "bot_triggers": 4,
         "secret_phrase_count": 10,
+        "awards": [
+            "channel_coverage_award",
+            "og",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 5,
         "work_hours_ranking": 9,
         "midnight_messages_ranking": 10,
@@ -125,6 +130,11 @@
         "swear_count": 308,
         "bot_triggers": 6,
         "secret_phrase_count": 6,
+        "awards": [
+            "biggest_swearer",
+            "channel_coverage_award",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 3,
         "work_hours_ranking": 3,
         "midnight_messages_ranking": 6,
@@ -191,6 +201,11 @@
         "swear_count": 240,
         "bot_triggers": 2,
         "secret_phrase_count": 16,
+        "awards": [
+            "channel_coverage_award",
+            "og",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 9,
         "work_hours_ranking": 13,
         "midnight_messages_ranking": 9,
@@ -259,6 +274,13 @@
         "swear_count": 16,
         "bot_triggers": 32,
         "secret_phrase_count": 11,
+        "awards": [
+            "giadabot9000s_worst_enemy",
+            "channel_coverage_award",
+            "og",
+            "consistency",
+            "good_worker"
+        ],
         "messages_this_year_ranking": 6,
         "work_hours_ranking": 19,
         "midnight_messages_ranking": 7,
@@ -331,6 +353,13 @@
         "swear_count": 138,
         "bot_triggers": 17,
         "secret_phrase_count": 12,
+        "awards": [
+            "best_friend",
+            "channel_coverage_award",
+            "og",
+            "on_the_up",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 2,
         "work_hours_ranking": 10,
         "midnight_messages_ranking": 5,
@@ -392,6 +421,14 @@
         "swear_count": 26,
         "bot_triggers": 0,
         "secret_phrase_count": 0,
+        "awards": [
+            "channel_coverage_award",
+            "bot_immune",
+            "og",
+            "on_the_up",
+            "conscious_messenger",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 13,
         "work_hours_ranking": 11,
         "midnight_messages_ranking": 18,
@@ -465,6 +502,14 @@
         "swear_count": 212,
         "bot_triggers": 0,
         "secret_phrase_count": 29,
+        "awards": [
+            "media_mogul",
+            "channel_coverage_award",
+            "bot_immune",
+            "og",
+            "conscious_messenger",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 4,
         "work_hours_ranking": 6,
         "midnight_messages_ranking": 12,
@@ -536,6 +581,16 @@
         "swear_count": 167,
         "bot_triggers": 10,
         "secret_phrase_count": 52,
+        "awards": [
+            "biggest_yapper",
+            "best_friend",
+            "channel_coverage_award",
+            "og",
+            "on_the_up",
+            "conscious_messenger",
+            "bad_worker",
+            "award_award"
+        ],
         "messages_this_year_ranking": 1,
         "work_hours_ranking": 5,
         "midnight_messages_ranking": 16,
@@ -598,6 +653,12 @@
         "swear_count": 21,
         "bot_triggers": 0,
         "secret_phrase_count": 0,
+        "awards": [
+            "channel_coverage_award",
+            "bot_immune",
+            "conscious_messenger",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 15,
         "work_hours_ranking": 16,
         "midnight_messages_ranking": 17,
@@ -664,6 +725,11 @@
         "swear_count": 64,
         "bot_triggers": 2,
         "secret_phrase_count": 6,
+        "awards": [
+            "channel_coverage_award",
+            "on_the_up",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 7,
         "work_hours_ranking": 4,
         "midnight_messages_ranking": 3,
@@ -730,6 +796,13 @@
         "swear_count": 23,
         "bot_triggers": 0,
         "secret_phrase_count": 4,
+        "awards": [
+            "channel_coverage_award",
+            "bot_immune",
+            "consistency",
+            "conscious_messenger",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 10,
         "work_hours_ranking": 8,
         "midnight_messages_ranking": 14,
@@ -779,6 +852,13 @@
         "swear_count": 0,
         "bot_triggers": 0,
         "secret_phrase_count": 0,
+        "awards": [
+            "biggest_slacker",
+            "bot_immune",
+            "og",
+            "conscious_messenger",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 20,
         "work_hours_ranking": 1,
         "midnight_messages_ranking": 19,
@@ -843,6 +923,11 @@
         "swear_count": 47,
         "bot_triggers": 0,
         "secret_phrase_count": 1,
+        "awards": [
+            "channel_coverage_award",
+            "bot_immune",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 12,
         "work_hours_ranking": 12,
         "midnight_messages_ranking": 11,
@@ -913,6 +998,11 @@
         "swear_count": 240,
         "bot_triggers": 4,
         "secret_phrase_count": 76,
+        "awards": [
+            "dowdalls_number_one",
+            "channel_coverage_award",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 8,
         "work_hours_ranking": 17,
         "midnight_messages_ranking": 2,
@@ -970,6 +1060,11 @@
         "swear_count": 0,
         "bot_triggers": 0,
         "secret_phrase_count": 1,
+        "awards": [
+            "night_owl",
+            "bot_immune",
+            "good_worker"
+        ],
         "messages_this_year_ranking": 18,
         "work_hours_ranking": 20,
         "midnight_messages_ranking": 1,
@@ -1031,6 +1126,12 @@
         "swear_count": 3,
         "bot_triggers": 0,
         "secret_phrase_count": 0,
+        "awards": [
+            "bot_immune",
+            "consistency",
+            "conscious_messenger",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 14,
         "work_hours_ranking": 7,
         "midnight_messages_ranking": 15,
@@ -1092,6 +1193,12 @@
         "swear_count": 26,
         "bot_triggers": 0,
         "secret_phrase_count": 2,
+        "awards": [
+            "channel_coverage_award",
+            "bot_immune",
+            "on_the_up",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 11,
         "work_hours_ranking": 14,
         "midnight_messages_ranking": 8,
@@ -1151,6 +1258,11 @@
         "swear_count": 5,
         "bot_triggers": 1,
         "secret_phrase_count": 0,
+        "awards": [
+            "consistency",
+            "bad_worker",
+            "awardnt_award"
+        ],
         "messages_this_year_ranking": 17,
         "work_hours_ranking": 18,
         "midnight_messages_ranking": 4,
@@ -1206,6 +1318,11 @@
         "swear_count": 2,
         "bot_triggers": 0,
         "secret_phrase_count": 1,
+        "awards": [
+            "bot_immune",
+            "conscious_messenger",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 16,
         "work_hours_ranking": 15,
         "midnight_messages_ranking": 13,
@@ -1259,6 +1376,12 @@
         "swear_count": 0,
         "bot_triggers": 0,
         "secret_phrase_count": 0,
+        "awards": [
+            "bot_immune",
+            "consistency",
+            "conscious_messenger",
+            "bad_worker"
+        ],
         "messages_this_year_ranking": 19,
         "work_hours_ranking": 2,
         "midnight_messages_ranking": 20,
@@ -1308,6 +1431,11 @@
         "swear_count": 0,
         "bot_triggers": 0,
         "secret_phrase_count": 0,
+        "awards": [
+            "bot_immune",
+            "conscious_messenger",
+            "good_worker"
+        ],
         "messages_this_year_ranking": 21,
         "work_hours_ranking": 21,
         "midnight_messages_ranking": 21,

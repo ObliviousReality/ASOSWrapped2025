@@ -34,9 +34,8 @@ function onLoad() {
     pages[currentPage].classList.remove("unopenedPage");
     pages[currentPage].classList.add("openPage");
 
-    document.getElementById("nameBox").addEventListener("keypress", function (event)
-    {
-        if(event.key === "Enter") {
+    document.getElementById("nameBox").addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
             let elem = document.getElementById("nameBox");
             elem.value = elem.value.replace('\n', '');
             onSubmitPressed();
@@ -156,6 +155,12 @@ function substituteText() {
     }
 }
 
+function loadAwards() {
+    data["awards"].forEach(award => {
+        Array.from(document.getElementsByClassName(award)).forEach(elem => elem.style.display = "block");
+    });
+}
+
 function onSubmitPressed() {
     let ta = document.getElementById("nameBox");
     let text = ta.value;
@@ -169,6 +174,7 @@ function onSubmitPressed() {
             data = full_data[text];
 
             substituteText();
+            loadAwards();
             goToPage(2);
         }
     }
