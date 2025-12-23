@@ -81,7 +81,7 @@ p {
 
 .pageInner h2 {
     font-size: 14vw;
-    color: #6B16A2;
+    color: #0079a6;
     margin: 0;
 }
 
@@ -92,7 +92,7 @@ p {
 .pageInner h4 {
     margin: 0;
     font-size: 8vw;
-    color: #6B16A2;
+    color: #0079a6;
 }
 
 .unopenedPage {
@@ -142,7 +142,7 @@ p {
     padding-bottom: 10px;
     margin-bottom: 1vh;
     color: white;
-    background-color: red;
+    background-color: #e55746;
     border-radius: 10px;
 }
 
