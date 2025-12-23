@@ -33,6 +33,16 @@ function onLoad() {
     });
     pages[currentPage].classList.remove("unopenedPage");
     pages[currentPage].classList.add("openPage");
+
+    document.getElementById("nameBox").addEventListener("keypress", function (event)
+    {
+        if(event.key === "Enter") {
+            let elem = document.getElementById("nameBox");
+            elem.value = elem.value.replace('\n', '');
+            onSubmitPressed();
+            return true;
+        }
+    });
 }
 
 function nextPage() {
@@ -157,10 +167,9 @@ function onSubmitPressed() {
 
         if (user_name_list.find(item => item === text)) {
             data = full_data[text];
-            console.log("Found");
 
             substituteText();
-            nextPage();
+            goToPage(2);
         }
     }
 }
