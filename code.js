@@ -137,11 +137,11 @@ function substituteText() {
     fillYearChart(messagesEachYear);
     let t = data["pings_match"];
     if (data["pings_match"]) {
-        friendsPage = 11;
+        friendsPage = 12;
         document.getElementById("notFriends").style.display = "none";
     }
     else {
-        friendsPage = 12;
+        friendsPage = 13
         document.getElementById("bestFriends").style.display = "none";
     }
 }
